@@ -5,11 +5,11 @@ function Home() {
     return (
         <div class="grid-container">
             <div className='image'></div>
-            <div className='image'></div>
+            <div></div>
             <div className='image'></div>
             <div className='image'></div>
             <div ></div>
-            <img src={homeProgrammer} alt="homeProgrammer" />
+            <img className='homeProgrammer'  src={homeProgrammer} alt="homeProgrammer" />
         </div>
     )
 }
