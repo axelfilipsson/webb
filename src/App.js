@@ -1,27 +1,24 @@
-
-import styled from 'styled-components';
-
-const Root = styled.div`
-  text-align: center; 
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-`
+import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
+import Home from './components/Home';
+import About from './components/About';
+import Projects from './components/Projects';
+import {Link, BrowserRouter as Router, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <Root>
-         <h2> Välkommen! </h2>
-      <p>
-        Sidan är under uppbyggnad..
-      </p>
-   
-    </Root>
+    <Router>
+      <div>
+        <Header></Header>
+        <Route path='/' exact render={(props) => (<> <Home></Home></>)}/>
+        <Route path='/about' component={About}/>
+        <Route path='/projects' component={Projects}/>
+        <Route path='/contact' component={Contact}/>
+        <Footer></Footer>
+      </div>
+    </Router>
   );
 }
 
