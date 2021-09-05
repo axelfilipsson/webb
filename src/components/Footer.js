@@ -1,4 +1,4 @@
-import { Mail, Phone, LinkedIn} from '@material-ui/icons';
+import { Mail, Phone, LinkedIn, GitHub} from '@material-ui/icons';
 
 
 function Footer() {
@@ -10,6 +10,8 @@ function Footer() {
             <p className='footer-item'>0760502933</p>
             <Mail/>
             <a className='footer-item' href="mailto:me@axelfilipsson.se">me@axelfilipsson.se</a>
+            <GitHub/>
+            <a className='footer-item' href='https://github.com/axelfilipsson'>Github</a>
         </footer>
     )
 }
