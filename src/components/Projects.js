@@ -2,7 +2,7 @@ import projects from './../resources/projects.svg';
 
 function Projects() {
     return (
-        <div>
+
         <div class="grid-container">
            
             <div><h1>Projekt</h1></div>
@@ -38,7 +38,7 @@ function Projects() {
                 Almarna.org var ett jobb jag gjorde för Alternativ Stad då de skulle fira och uppmärksamma 50-årsjubilet av Almstriden. Utmaningen låg i att kommunicera med dessa väldigt kompetenta men icke IT bevandrade pensionärer för att komma fram till en bra och pedagogisk hemsida samtidigt som vi var under en ganska extrem tidspress </p>
             </div>
         </div>
-    </div>
+
     )
 }
 
