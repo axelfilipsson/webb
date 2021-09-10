@@ -230,9 +230,15 @@ a:hover {
     header a.menu {
         font-size: 30px;
     }
+    .image-small{
+        display: none;
+    }
 }
 
+
 @media only screen and (max-width: 600px) {
+
+   
     .grid-container {
         grid-template-columns: 350px;
         grid-gap: 40px;

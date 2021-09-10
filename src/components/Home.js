@@ -7,6 +7,10 @@ function Home() {
         <div className = 'image' > </div> 
         <div className = 'image' > </div> 
         <div className = 'image' > </div> 
+        <div className = 'image-small' > </div> 
+        <div className = 'image-small' > </div>
+        <div className = 'image-small' > </div> 
+        <div className = 'image-small' > </div> 
       
         <img className = 'homeProgrammer'
         src = { homeProgrammer }
