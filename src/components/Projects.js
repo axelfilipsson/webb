@@ -5,15 +5,21 @@ function Projects() {
 
         <div class="grid-container">
            
-            <div><h1>Projekt</h1></div>
+            <div><h1 className='head-text' >Projekt</h1></div>
             <div class='image'></div>
+            <div><h2>Sen jag började intressera mig för webbutveckling, UX och programmering så har jag tagit på mig flera uppdrag. Här har jag samlat några av dem. </h2></div>  
+            {/* <img className='image' src={projects} alt="projects" /> */}
+            <div>
+                <a href='https://almarna.org/'> <h2>Almarna.org</h2></a>
+                <p>
+                Almarna.org var ett jobb jag gjorde för Alternativ Stad då de skulle fira och uppmärksamma 50-årsjubilet av Almstriden. Utmaningen låg i att kommunicera med dessa väldigt kompetenta men icke IT bevandrade pensionärer för att komma fram till en bra och pedagogisk hemsida samtidigt som vi var under en ganska extrem tidspress </p>
+            </div>
             <div>
                 <a href='https://www.ivl.se/projektwebbar/storsudret.html'> <h2>Dammluckan på Storsudret</h2></a>
                 <p>
                 Detta projekt är mitt mest ansvarfulla och komplexa hitils. Projektet går ut på att programmera en dammlucka som ska reglera vattennivån i en av IVL’s vattentestbäddar på Storsudret, Gotland. Själva regleringen i sig är inte så komplex men i och med datorns utsatta position långt bort från civilisationen så sätts höga krav på stabilitet och varnings system för när saker inte går som det ska. Programmet är skrivet Python och använder sig bland annat utav ett av Googles API'er.
                 </p>
             </div>
-            <img className='image' src={projects} alt="projects" />
             <div>
                 <h2>Turbinator Databas</h2>
                 <p>
@@ -26,6 +32,7 @@ function Projects() {
                 Avdelningen för människa-datorinteraktion utlyste en internshiptjänst och jag var snabb med på att nappa. Vi kom fram till att jag skulle hjälpa till att utveckla ett verktyg för att studera och kontrollera växter som sedan skulle kunna användas i forskning inom MDI. Jag har fått mycket hjälp och suttit i nära kontakt med en av deras forskningsingenjörer och arbetet har varit mycket lärorikt och inspirerande. Det var bland annat här jag bestämde mig för att lära mig React och Front end utveckling. 
                 </p>
             </div>
+           
             <div>
                 <a href='https://falksevent.se/'> <h2>Falksevent.se</h2></a>
                 <p>
@@ -33,9 +40,8 @@ function Projects() {
                 </p>
             </div>
             <div>
-                <a href='https://almarna.org/'> <h2>Almarna.org</h2></a>
-                <p>
-                Almarna.org var ett jobb jag gjorde för Alternativ Stad då de skulle fira och uppmärksamma 50-årsjubilet av Almstriden. Utmaningen låg i att kommunicera med dessa väldigt kompetenta men icke IT bevandrade pensionärer för att komma fram till en bra och pedagogisk hemsida samtidigt som vi var under en ganska extrem tidspress </p>
+                <a href='https://friendtoafamily.com/'> <h2>Friendtoafamily.com</h2></a>
+                <p>Min kompis som är kläddesigner bad mig assistera honom i att utveckla hans webbshop med arkitektur och design. </p>
             </div>
         </div>
 
