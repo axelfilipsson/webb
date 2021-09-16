@@ -17,7 +17,7 @@ function Projects() {
             <div>
                 <a href='https://www.ivl.se/projektwebbar/storsudret.html'> <h2>Dammluckan på Storsudret</h2></a>
                 <p>
-                Detta projekt är mitt mest ansvarfulla och komplexa hitils. Projektet går ut på att programmera en dammlucka som ska reglera vattennivån i en av IVL’s vattentestbäddar på Storsudret, Gotland. I och med datorns utsatta position långt bort från civilisationen så sätts höga krav på stabilitet och varnings system för när saker inte går som det ska. Programmet är skrivet Python och använder sig bland annat utav ett av Googles API'er.
+                Detta projekt är mitt mest ansvarfulla och komplexa hitils. Projektet går ut på att programmera en dammlucka som ska reglera vattennivån i en av IVL’s vattentestbäddar på Storsudret, Gotland. I och med datorns utsatta position långt bort från civilisationen så sätts höga krav på stabilitet och varnings system för när saker inte går som det ska. Programmet körs på en Rasberry Pi och är skrivet i Python. Programmet talar med ett API för att hämta vattendata och ett API för google drive för att logga data. Till luckan så finns även ett larmsystem som också är skrivet i Python.
                 </p>
             </div>
             <div>
@@ -25,14 +25,7 @@ function Projects() {
                 <p>
                     På IVL så fick jag också chansen i att vara med och skapa en databas för ett av deras prestigeprojekt, nämligen “Turbinatorn”. Denna maskin ska kort sammanfattat mäta turbititet(grummlighet) i vattendrag och brunnar genom att analysera bilder med hjälp av AI. Min uppgift var att skapa en databas för att hantera all denna bild data. Utmaningen låg främst i att jag aldrig bregrep maskinens komplexitet men ändå var tvungen att kommuncera med dess utvecklare för att komma fram till ett bra ekosystem för databasen. Sedan skapade jag databasen och dess tabeller i Azure SQL Database.
                 </p>
-            </div>
-            <div>
-                <a href='https://hydroponics-website-3pevl.ondigitalocean.app/#/'> <h2>The Hydroponics project</h2></a>
-                <p>
-                Avdelningen för människa-datorinteraktion utlyste en internshiptjänst och jag var snabb med på att nappa. Vi kom fram till att jag skulle hjälpa till att utveckla ett verktyg för att studera och kontrollera växter som sedan skulle kunna användas i forskning inom MDI. Jag har fått mycket hjälp och suttit i nära kontakt med en av deras forskningsingenjörer och arbetet har varit mycket lärorikt och inspirerande. Hemsidan är skapad i React JS, apiet i Node.js, databasen i MongoDB och bilderna lagras i AWS. 
-                </p>
-            </div>
-           
+            </div>   
             <div>
                 <a href='https://falksevent.se/'> <h2>Falksevent.se</h2></a>
                 <p>
@@ -42,6 +35,12 @@ function Projects() {
             <div>
                 <a href='https://malaropadel.vercel.app/'> <h2>Mälaröpadel.com</h2></a>
                 <p>Åt min lokala padelbana så skapar jag en hemsida som fortfarande är under utveckling. Hemsidan är skapad i React JS vilket denna hemsida som du befinner dig på just nu också är.</p>
+            </div>
+            <div>
+                <a href='https://hydroponics-website-3pevl.ondigitalocean.app/#/'> <h2>The Hydroponics project</h2></a>
+                <p>
+                Avdelningen för människa-datorinteraktion utlyste en internshiptjänst och jag var snabb med på att nappa. Vi kom fram till att jag skulle hjälpa till att utveckla ett verktyg för att studera och kontrollera växter som sedan skulle kunna användas i forskning inom MDI. Arbetet har varit mycket lärorikt och inspirerande då jag sammarbetat med en av deras duktiga forskningsingenjörer som är en duktig fullstack-utvecklare. <br/><br/> Hemsidan är skapad i React JS, apiet i Node.js, databasen i MongoDB och bilderna lagras i AWS. Temperaturen hämtas med en ESP32 skriven i Arduino och bilderna tas med en mobilapplikation skriven i Flutter. 
+                </p>
             </div>
             <div>
                 <a href='https://friendtoafamily.com/'> <h2>Friendtoafamily.com</h2></a>
