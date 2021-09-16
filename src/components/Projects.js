@@ -12,12 +12,12 @@ function Projects() {
             <div>
                 <a href='https://almarna.org/'> <h2>Almarna.org</h2></a>
                 <p>
-                Almarna.org var ett jobb jag gjorde för Alternativ Stad då de skulle fira och uppmärksamma 50-årsjubilet av Almstriden. Utmaningen låg i att kommunicera med dessa väldigt kompetenta men icke IT bevandrade pensionärer för att komma fram till en bra och pedagogisk hemsida samtidigt som vi var under en ganska extrem tidspress </p>
+                Almarna.org var ett jobb jag gjorde för Alternativ Stad då de skulle fira och uppmärksamma 50-årsjubilet av Almstriden. Utmaningen låg i att kommunicera med dessa väldigt kompetenta men icke IT bevandrade pensionärer för att komma fram till en bra och pedagogisk hemsida samtidigt som vi var under en ganska extrem tidspress. Hemsidan är skapad i Squarespace </p>
             </div>
             <div>
                 <a href='https://www.ivl.se/projektwebbar/storsudret.html'> <h2>Dammluckan på Storsudret</h2></a>
                 <p>
-                Detta projekt är mitt mest ansvarfulla och komplexa hitils. Projektet går ut på att programmera en dammlucka som ska reglera vattennivån i en av IVL’s vattentestbäddar på Storsudret, Gotland. Själva regleringen i sig är inte så komplex men i och med datorns utsatta position långt bort från civilisationen så sätts höga krav på stabilitet och varnings system för när saker inte går som det ska. Programmet är skrivet Python och använder sig bland annat utav ett av Googles API'er.
+                Detta projekt är mitt mest ansvarfulla och komplexa hitils. Projektet går ut på att programmera en dammlucka som ska reglera vattennivån i en av IVL’s vattentestbäddar på Storsudret, Gotland. I och med datorns utsatta position långt bort från civilisationen så sätts höga krav på stabilitet och varnings system för när saker inte går som det ska. Programmet är skrivet Python och använder sig bland annat utav ett av Googles API'er.
                 </p>
             </div>
             <div>
@@ -29,7 +29,7 @@ function Projects() {
             <div>
                 <a href='https://hydroponics-website-3pevl.ondigitalocean.app/#/'> <h2>The Hydroponics project</h2></a>
                 <p>
-                Avdelningen för människa-datorinteraktion utlyste en internshiptjänst och jag var snabb med på att nappa. Vi kom fram till att jag skulle hjälpa till att utveckla ett verktyg för att studera och kontrollera växter som sedan skulle kunna användas i forskning inom MDI. Jag har fått mycket hjälp och suttit i nära kontakt med en av deras forskningsingenjörer och arbetet har varit mycket lärorikt och inspirerande. Det var bland annat här jag bestämde mig för att lära mig React och Front end utveckling. 
+                Avdelningen för människa-datorinteraktion utlyste en internshiptjänst och jag var snabb med på att nappa. Vi kom fram till att jag skulle hjälpa till att utveckla ett verktyg för att studera och kontrollera växter som sedan skulle kunna användas i forskning inom MDI. Jag har fått mycket hjälp och suttit i nära kontakt med en av deras forskningsingenjörer och arbetet har varit mycket lärorikt och inspirerande. Hemsidan är skapad i React JS, apiet i Node.js, databasen i MongoDB och bilderna lagras i AWS. 
                 </p>
             </div>
            
@@ -40,8 +40,12 @@ function Projects() {
                 </p>
             </div>
             <div>
+                <a href='https://malaropadel.vercel.app/'> <h2>Mälaröpadel.com</h2></a>
+                <p>Åt min lokala padelbana så skapar jag en hemsida som fortfarande är under utveckling. Hemsidan är skapad i React JS vilket denna hemsida som du befinner dig på just nu också är.</p>
+            </div>
+            <div>
                 <a href='https://friendtoafamily.com/'> <h2>Friendtoafamily.com</h2></a>
-                <p>Min kompis som är kläddesigner bad mig assistera honom i att utveckla hans webbshop med arkitektur och design. </p>
+                <p>Min kompis som är kläddesigner bad mig assistera honom i att utveckla hans webbshop med arkitektur och design. Hemsidan är skapad i Wix och är fortfarande under utveckling.</p>
             </div>
         </div>
 
