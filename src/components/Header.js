@@ -11,7 +11,7 @@ function Header() {
                 <Link class="menu" to="about">Om mig</Link>
                 <Link class="menu" to="projects">Projekt</Link>
                 {/* <Link class="menu" to="contact">Kontakt</Link> */}
-                <Link class="menu" to="cv">CV</Link>
+                {/* <Link class="menu" to="cv">CV</Link> */}
                 {/* <a class="menu" href='https://drive.google.com/file/d/1TH2UFDDMtLRN_oy4vuFWvejLWRDS23Ao/view?usp=sharing' >CV</a> */}
                 </div>
             </div>

@@ -2,6 +2,9 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0 3em 0 3em;
 }
+.mobile-display{
+    display: none;
+}
 
 * {
     box-sizing: border-box;
@@ -233,6 +236,7 @@ a:hover {
     .image-small{
         display: none;
     }
+   
 }
 
 
@@ -273,6 +277,9 @@ a:hover {
     .image {
         display: none;
     }
+    .image-small{
+       display:none;
+    }
     footer {
         height: 50px;
         width: 100%;
@@ -308,4 +315,13 @@ a:hover {
         width: auto;
         text-align: left;
     }
+    .mobile-display{
+        display: block;
+    }
+    .homeProgrammer {
+        width: 80%;
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    
 }

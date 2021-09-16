@@ -17,7 +17,7 @@ function App() {
         <Route path='/about' component={About}/>
         <Route path='/projects' component={Projects}/>
         {/* <Route path='/contact' component={Contact}/> */}
-        <Route path='/cv' component={Cv}/>
+        {/* <Route path='/cv' component={Cv}/> */}
         <Footer></Footer>
       </div>
     </Router>

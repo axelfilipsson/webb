@@ -7,7 +7,9 @@ function Home() {
         <div className = 'image' > </div> 
         <div className = 'image' > </div> 
         <div className = 'image' > </div> 
-        <div className = 'image-small' > </div> 
+        
+        <div className = 'mobile-display' > </div>
+        <div className = 'image-small' > </div>
         <div className = 'image-small' > </div>
         <div className = 'image-small' > </div> 
         <div className = 'image-small' > </div> 
