@@ -7,17 +7,18 @@ import About from './components/About';
 import Projects from './components/Projects';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Cv from './components/Cv';
+import Icon from './resources/icon'
 
 function App() {
   return (
     <Router>
       <div>
-        <Header></Header>
-        <Route path='/' exact render={(props) => (<> <Home></Home></>)}/>
+        {/* <Header></Header> */}
+        {/* <Route path='/' exact render={(props) => (<> <Home></Home></>)}/>
         <Route path='/about' component={About}/>
         <Route path='/projects' component={Projects}/>
-        {/* <Route path='/contact' component={Contact}/> */}
-        {/* <Route path='/cv' component={Cv}/> */}
+       */}
+        <Icon > </Icon>
         <Footer></Footer>
       </div>
     </Router>
