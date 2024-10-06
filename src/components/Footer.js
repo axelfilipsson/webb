@@ -5,7 +5,6 @@ import { FooterStyle, ContactItem, Mail, Phone, Linkedin, Github } from '../styl
 function Footer() {
     return (
         <FooterStyle>
-
             <ContactItem>
                 <Linkedin />
                 <a className='footer-item' href='https://www.linkedin.com/in/axel-filipsson/'>Linkedin</a>
@@ -25,6 +24,7 @@ function Footer() {
                 <Github />
                 <a className='footer-item' href='https://github.com/axelfilipsson'>Github</a>
             </ContactItem>
+
         </FooterStyle>
     )
 }

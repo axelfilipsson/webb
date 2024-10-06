@@ -3,15 +3,23 @@ import styled from 'styled-components';
 import { AiFillMail, AiFillPhone, AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
 
-
 export const FooterStyle = styled.footer`
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
+    left: 0;
     width: 100%;
-    height: 3rem;
-    justify-content: space-between;       
-`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
 
+    @media (max-width: 768px) {
+        flex-direction: column;
+      
+    }
+`;
 
 export const ContactItem = styled.span`
 

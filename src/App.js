@@ -6,8 +6,8 @@ import Main from './components/Main';
 function App() {
   return (
     <Router>
-        <Main></Main>
-        <Footer></Footer>
+        <Main/>
+        <Footer/>
     </Router>
   );
 }
